@@ -33,7 +33,7 @@ function ContactInfo() {
                 <ul className="list-none pl-5 small-bullet underline underline-offset-4 decoration-from-font">
                     {otherContactItems.map((item, index) => (
                         <li key={index}>
-                            <a href={item.url} target="_blank" rel="noopener noreferrer" className="font-light text-sm hover:opacity-25">
+                            <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-xs sm:text-sm tracking-wide font-light hover:opacity-25">
                                 {item.name}
                             </a>
                         </li>
