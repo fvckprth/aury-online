@@ -16,7 +16,7 @@ function ContactInfo() {
     return (
         <div className="flex wrap md:flex-col">
             <div className="mr-10">
-                <p className="text-xs sm:text-sm tracking-wide font-light mt-8 md:mt-0">Find me:</p>
+                <p className="text-xs sm:text-sm tracking-wide font-light mt-6 md:mt-0">Find me:</p>
                 <ul className="list-none pl-5 small-bullet underline underline-offset-4 decoration-from-font">
                     {contactItems.map((item, index) => (
                         <li key={index}>
@@ -29,7 +29,7 @@ function ContactInfo() {
             </div>
 
             <div>
-                <p className="text-xs sm:text-sm tracking-wide font-light mt-8 md:mt-12">Reach me:</p>
+                <p className="text-xs sm:text-sm tracking-wide font-light mt-6 md:mt-12">Reach me:</p>
                 <ul className="list-none pl-5 small-bullet underline underline-offset-4 decoration-from-font">
                     {otherContactItems.map((item, index) => (
                         <li key={index}>
