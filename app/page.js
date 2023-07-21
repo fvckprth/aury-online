@@ -8,13 +8,13 @@ import ContactInfo from '@/components/ContactInfo';
 
 export default function Home() {
   return (
-    <div className="bg-custom-gray text-custom-text font-NeueHaasDisplay font-light flex flex-col items-center md:place-content-center mt-16 md:mt-32">
+    <div className="bg-custom-gray text-custom-text font-NeueHaasDisplay font-light flex flex-col items-center md:place-content-center mt-12 md:mt-32">
       <div>
         <Header />
-        <div className="space-y-4 md:space-y-0 md:flex md:justify-start md:space-x-20 mt-1 md:mt-2">
+        <div className="space-y-2 md:space-y-0 md:flex md:justify-start md:space-x-20 mt-1 md:mt-2">
           
           {/* Left side content */}
-          <div className="space-y-8 md:space-y-12">
+          <div className="space-y-6 md:space-y-12">
             <AboutMe />
             <div>
               <Signature />
