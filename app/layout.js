@@ -6,7 +6,7 @@ export const metadata = {
   title: '© Parth Patel ⸺ Founder @ East Park. Based in NYC.',
   description: 'Founder of East Park, P307, and a few other things. Based in New York City.',
   siteUrl: 'https://www.parth.ski',
-  imageUrl: '/fallen-angels.jpeg',
+  imageUrl: 'https://www.parth.ski/fallen-angels.jpeg',
   twitterHandle: '@fvckprth'
 };
 
@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
         <meta name="keywords" content="Parth Patel, East Park, P307, New York Founder, Tech, Startups, Films, Music" />
         <link rel="canonical" href={metadata.siteUrl} />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/fallen-angels.jpeg" />
 
         {/* OpenGraph and Twitter card information for better share previews */}
         <meta property="og:title" content={metadata.title} />
