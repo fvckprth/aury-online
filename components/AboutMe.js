@@ -14,10 +14,10 @@ function AboutMe() {
         </p>
         <p className="text-xs sm:text-sm tracking-wide font-light mt-4">
             Began my journey somewhere in the middle of medicine,<br/>
-            Shanghai, and DJing. I’m the founder of <a href="#" className="underline underline-offset-4 decoration-from-font hover:opacity-25">East Park</a>, an NYC<br/>
-            group in the intersection of commerce, media, and climate <br/>
-            tech. I’m currently focused on building an easier way to <br/>
-            streamline collaborative commerce at <a href="#" className="underline underline-offset-4 decoration-from-font hover:opacity-25">P307</a>.
+            Shanghai, and DJing. I’m the founder of <a href="#" className="underline underline-offset-4 decoration-from-font hover:opacity-25">East Park</a>, a tech<br/>
+            company advancing commerce, media, and carbon-neutral<br/>
+            solutions. I’m currently focused on building an easier<br/>
+            way to streamline collaborative commerce at <a href="#" className="underline underline-offset-4 decoration-from-font hover:opacity-25">P307</a>.
         </p>
         <p className="text-xs sm:text-sm tracking-wide font-light mt-4">
             A slave to romanticism, I practice religiously. I like to spend <br/>
