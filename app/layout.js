@@ -3,10 +3,10 @@ import Head from 'next/head';
 import './globals.css';
 
 export const metadata = {
-  title: '©Parth Patel',
+  title: '© Parth Patel ⸺ Founder @ East Park. Based in NYC.',
   description: 'Founder of East Park, P307, and a few other things. Based in New York City.',
   siteUrl: 'https://www.parth.ski',
-  imageUrl: 'https://www.parth.ski/path-to-image/loopyloopy.jpg',
+  imageUrl: '/fallen-angels.jpeg',
   twitterHandle: '@fvckprth'
 };
 
