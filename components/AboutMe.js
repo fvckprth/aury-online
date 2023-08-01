@@ -22,7 +22,7 @@ function AboutMe() {
         <p className="text-xs sm:text-sm tracking-wide font-light mt-4">
             A slave to romanticism, I practice religiously. I like to spend <br/>
             my time curating <a href="https://spotify.link/t90Be9JJCBb" className="underline underline-offset-4 decoration-from-font hover:opacity-25">memorable sounds</a>, watching <a href="https://boxd.it/5ESSx" className="underline underline-offset-4 decoration-from-font hover:opacity-25">A24 films</a>, <br/>
-            drinking <a href="#" className="underline underline-offset-4 decoration-from-font hover:opacity-25">Old Fashioneds</a>, and cherishing <a href="https://www.onlinesoni.com/" className="underline underline-offset-4 decoration-from-font hover:opacity-25">Sonia</a>.
+            drinking <a href="https://app.beliapp.com/lists/fvckprth" className="underline underline-offset-4 decoration-from-font hover:opacity-25">Old Fashioneds</a>, and cherishing <a href="https://www.onlinesoni.com/" className="underline underline-offset-4 decoration-from-font hover:opacity-25">Sonia</a>.
         </p>
       </div>
     );

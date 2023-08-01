@@ -10,7 +10,7 @@ function ContactInfo() {
     ];
 
     const otherContactItems = [
-        { name: "Email", url: "mailto:ping@parth.ski" },
+        { name: "Email", url: "mailto:parthpatel.32195@gmail.com" },
     ];
 
     return (
