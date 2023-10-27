@@ -15,9 +15,9 @@ function AboutMe() {
         <p className="text-xs sm:text-sm tracking-wide font-light mt-4">
             Began my journey somewhere in the middle of medicine,<br/>
             Shanghai, and DJing. I’m the founder of <a href="https://www.eastpark.xyz" className="underline underline-offset-4 decoration-from-font hover:opacity-25">East Park</a>, a tech<br/>
-            company advancing commerce, media, and carbon-neutral<br/>
-            solutions. I’m currently focused on building an easier<br/>
-            way to streamline collaborative commerce at <a href="https://www.p307.net" className="underline underline-offset-4 decoration-from-font hover:opacity-25">P307</a>.
+            company advancing commerce, AI, and carbon-neutral<br/>
+            solutions. I’m currently focused on unifying data & workflows<br/>
+            to empower AI-human collaboration at <a href="https://www.withamaya.com" className="underline underline-offset-4 decoration-from-font hover:opacity-25">Amaya</a>.
         </p>
         <p className="text-xs sm:text-sm tracking-wide font-light mt-4">
             A slave to romanticism, I practice religiously. I like to spend <br/>
@@ -27,5 +27,5 @@ function AboutMe() {
       </div>
     );
   }
-  
+
   export default AboutMe;

@@ -1,9 +1,10 @@
+// components/Signature.js
 import Image from 'next/image';
 
 function Signature() {
     return (
-      <img src="../images/parth.ski-signature.svg" alt="Parth's Signature" className="h-12" />
+      <Image src="/images/parth.ski-signature.svg" alt="Parth's Signature" height={120} width={120} />
     );
-  }
+}
 
 export default Signature;
