@@ -2,15 +2,17 @@
 
 function ContactInfo() {
     const contactItems = [
-        { name: "Threads", url: "https://www.threads.net/@fvckprth" },
-        { name: "Instagram", url: "https://www.instagram.com/fvckprth/" },
-        { name: "Linkedin", url: "https://www.linkedin.com/in/fvckprth/" },
-        { name: "read.cv", url: "https://www.read.cv/fvckprth" },
-        { name: "Spotify", url: "https://open.spotify.com/user/parth95" },
+        { name: "Instagram", url: "https://www.instagram.com/" },
+        { name: "LinkedIn", url: "https://www.linkedin.com/in/aury-hernandez-442a4727a/" },
+        {
+            name: "Resume",
+            url:
+                "mailto:aury@seeyoutomorrow.us?subject=Request%20for%20Resume&body=Hi%20Aury,%0A%0AI%20hope%20you%27re%20well.%20I%27d%20like%20to%20request%20a%20copy%20of%20your%20resume%20for%20review.%20If%20there%27s%20a%20preferred%20format%20or%20any%20additional%20details%20you%27d%20like%20to%20share,%20please%20let%20me%20know.%0A%0AThank%20you,%0A[Your%20Name]%0A[Company]%0A[Contact%20Information]",
+        },
     ];
 
     const otherContactItems = [
-        { name: "Email", url: "mailto:parthpatel.32195@gmail.com" },
+        { name: "Email", url: "mailto:aury@seeyoutomorrow.us" },
     ];
 
     return (

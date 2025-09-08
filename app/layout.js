@@ -1,44 +1,59 @@
 import React from 'react';
-import Head from 'next/head';
 import './globals.css';
 
 export const metadata = {
-  title: '© Parth Patel ⸺ Founder @ East Park. Based in NYC.',
-  description: 'Founder of East Park, P307, and a few other things. Based in New York City.',
-  siteUrl: 'https://www.parth.ski',
-  imageUrl: 'https://www.parth.ski/fallen-angels.jpeg',
-  twitterHandle: '@fvckprth'
+  // Replace with Aury's actual domain
+  metadataBase: new URL('https://www.aury.online'),
+  title: '© Aury Hernandez ⸺ Hospitality & Partnerships. Based in NYC.',
+  description:
+    'Director of Food, Beverage & Partnerships at NeueHouse; formerly co-owner at WEST10WEST and opening team at PUBLIC Hotel. I build hospitality-driven employee, member, and brand experiences in New York.',
+  keywords: [
+    'Aury Hernandez',
+    'Hospitality',
+    'Partnerships',
+    'Employee Experience',
+    'Events',
+    'Food & Beverage',
+    'NeueHouse',
+    'WEST10WEST',
+    'PUBLIC Hotel',
+    'Ian Schrager Company',
+    'New York'
+  ],
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/og-image.jpg' // swap for Aury’s image
+  },
+  alternates: {
+    canonical: 'https://www.aury.online'
+  },
+  openGraph: {
+    title: '© Aury Hernandez ⸺ Hospitality & Partnerships. Based in NYC.',
+    description:
+      'Director of Food, Beverage & Partnerships at NeueHouse; formerly co-owner at WEST10WEST and opening team at PUBLIC Hotel. I build hospitality-driven employee, member, and brand experiences in New York.',
+    url: 'https://www.aury.online',
+    images: ['/og-image.jpg'],
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    // Replace with Aury’s handle if applicable
+    // site: '@auryhernandez',
+    title: '© Aury Hernandez ⸺ Hospitality & Partnerships. Based in NYC.',
+    description:
+      'Director of Food, Beverage & Partnerships at NeueHouse; formerly co-owner at WEST10WEST and opening team at PUBLIC Hotel. I build hospitality-driven employee, member, and brand experiences in New York.',
+    images: ['/og-image.jpg']
+  }
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <meta charSet="UTF-8" />
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="Parth Patel, East Park, P307, New York Founder, Tech, Startups, Films, Music" />
-        <link rel="canonical" href={metadata.siteUrl} />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/fallen-angels.jpeg" />
-
-        {/* OpenGraph and Twitter card information for better share previews */}
-        <meta property="og:title" content={metadata.title} />
-        <meta property="og:description" content={metadata.description} />
-        <meta property="og:image" content={metadata.imageUrl} />
-        <meta property="og:url" content={metadata.siteUrl} />
-        <meta property="og:type" content="website" />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content={metadata.twitterHandle} />
-        <meta name="twitter:title" content={metadata.title} />
-        <meta name="twitter:description" content={metadata.description} />
-        <meta name="twitter:image" content={metadata.imageUrl} />
-
-        {/* For language-specific targeting */}
-        <meta httpEquiv="content-language" content="en" />
-      </Head>
       <body>{children}</body>
     </html>
   );

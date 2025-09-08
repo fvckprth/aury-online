@@ -1,19 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: {
-    content: [
-      "./app/**/*.{js,ts,jsx,tsx,mdx}",
-      './page/**/*.{js,ts,jsx,tsx}',
-      './components/**/*.{js,ts,jsx,tsx}'
-    ]
-  },
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./page/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}"
+  ],
   theme: {
     extend: {
       backgroundColor: {
-        'custom-gray': '#232323', // Custom background color
+        'custom-gray': '#000000', // Custom background color
       },
       textColor: {
-        'custom-text': '#9A9A9A', // Custom text color
+        'custom-text': '#FFFFFF', // Custom text color
       },
       fontFamily: {
         'NeueHaasDisplay': ['NeueHaasDisplay', 'sans']
@@ -24,7 +22,6 @@ module.exports = {
       }
     }
   },
-  variants: {},
   plugins: [
     function ({ addUtilities }) {
       const newUtilities = {

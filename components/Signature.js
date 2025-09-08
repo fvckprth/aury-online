@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function Signature() {
     return (
-      <Image src="/images/parth.ski-signature.svg" alt="Parth's Signature" height={120} width={120} />
+      <Image src="/images/aury-signature.svg" alt="Aury's Signature" height={120} width={120} />
     );
 }
 

@@ -4,25 +4,96 @@ function AboutMe() {
     return (
       <div>
         <p className="text-xs sm:text-sm tracking-wide font-light">
-            B. 1995, Detroit.<br/>
-            Based in New York.<br/>
+          10+ Years of Hospitality & Partnerships.<br/>
+          Based in New York.<br/>
         </p>
+
         <p className="text-xs sm:text-sm tracking-wide font-light mt-4">
-            I have a deep love for building joyful, simple, and culturally<br/>
-            conscious technology products that enable people to be<br/>
-            the best version of themselves.
+          I have a deep love for building joyful, precise, and culturally<br/>
+          grounded hospitality experiences that make people feel seen—<br/>
+          turning communities into lasting brands.
         </p>
+
         <p className="text-xs sm:text-sm tracking-wide font-light mt-4">
-            Began my journey somewhere in the middle of medicine,<br/>
-            Shanghai, and DJing. I’m the founder of <a href="https://www.eastpark.xyz" className="underline underline-offset-4 decoration-from-font hover:opacity-25">East Park</a>, a tech<br/>
-            company advancing commerce, AI, and carbon-neutral<br/>
-            solutions. I’m currently focused on unifying data & workflows<br/>
-            to empower AI-human collaboration at <a href="https://www.withamaya.com" className="underline underline-offset-4 decoration-from-font hover:opacity-25">Amaya</a>.
+          Lead the opening of{" "}
+          <a
+            href="https://www.publichotels.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-4 decoration-from-font hover:opacity-25"
+          >
+            PUBLIC Hotel
+          </a>{" "}
+          with{" "}
+          <a
+            href="https://www.ianschragercompany.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-4 decoration-from-font hover:opacity-25"
+          >
+            Ian Schrager Company
+          </a>
+          , <br/> learning what it takes to build from zero. Co-owned{" "}
+          <a
+            href="https://www.west10west.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-4 decoration-from-font hover:opacity-25"
+          >
+            WEST10WEST
+          </a>
+          ,<br/>leading growth and partnerships. Previously led Food,<br/>
+          Beverage &amp; Partnerships at{" "}
+          <a
+            href="https://www.neuehouse.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-4 decoration-from-font hover:opacity-25"
+          >
+            NeueHouse
+          </a>
+          —treating hospitality<br/>as strategy across membership,
+          programming, and events.<br/>I also co-founded{" "}
+          <a
+            href="https://www.syt.studio/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-4 decoration-from-font hover:opacity-25"
+          >
+            SYT (See You Tomorrow)
+          </a>
+          , a partnership studio<br/>in New York.
         </p>
+
         <p className="text-xs sm:text-sm tracking-wide font-light mt-4">
-            A slave to romanticism, I practice religiously. I like to spend <br/>
-            my time curating <a href="https://spotify.link/t90Be9JJCBb" className="underline underline-offset-4 decoration-from-font hover:opacity-25">memorable sounds</a>, watching <a href="https://boxd.it/5ESSx" className="underline underline-offset-4 decoration-from-font hover:opacity-25">A24 films</a>, <br/>
-            drinking <a href="https://app.beliapp.com/lists/fvckprth" className="underline underline-offset-4 decoration-from-font hover:opacity-25">Old Fashioneds</a>, and cherishing <a href="https://www.onlinesoni.com/" className="underline underline-offset-4 decoration-from-font hover:opacity-25">Sonia</a>.
+        Wellness first; quiet craft, every day.{" "}
+        <a
+          href="https://www.leonardcohen.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-4 decoration-from-font hover:opacity-25"
+        >
+          Cohen’s late songs
+        </a>{" "}
+        keep me<br/> curious about small stories of love and life. These days it’s the<br/>{" "}
+        <a
+          href="https://www.aplos.world/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-4 decoration-from-font hover:opacity-25"
+        >
+          low-ABV space
+        </a>
+        , cold plunges at{" "}
+        <a
+          href="https://www.equinox.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-4 decoration-from-font hover:opacity-25"
+        >
+          Equinox
+        </a>
+        , and Citi Bike rides.
         </p>
       </div>
     );
