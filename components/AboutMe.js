@@ -15,7 +15,7 @@ function AboutMe() {
         </p>
 
         <p className="text-xs sm:text-sm tracking-wide font-light mt-4">
-          Lead the opening of{" "}
+          Led the opening of{" "}
           <a
             href="https://www.publichotels.com/"
             target="_blank"
