@@ -6,12 +6,8 @@ function AboutMe() {
         <p className="text-xs sm:text-sm tracking-wide font-light">
           10+ Years of Hospitality & Partnerships.<br/>
           Based in New York City.<br/>
-        </p>
-
-        <p className="text-xs sm:text-sm tracking-wide font-light mt-4">
-          I have a deep love for building joyful, precise, and culturally<br/>
-          grounded hospitality experiences that make people feel seen—<br/>
-          turning communities into lasting brands.
+          Currently building Sweet Linda, a cocktail lounge in New York.<br/>
+          I want it to be a room people remember.
         </p>
 
         <p className="text-xs sm:text-sm tracking-wide font-light mt-4">
