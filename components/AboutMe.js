@@ -5,8 +5,7 @@ function AboutMe() {
       <div>
         <p className="text-xs sm:text-sm tracking-wide font-light">
           10+ Years of Hospitality & Partnerships.<br/>
-          Based in New York City.<br/>
-          Currently building Sweet Linda, a cocktail lounge in New York.<br/>
+          Based in New York City. Currently building Sweet Linda, a cocktail lounge in New York.<br/>
           I want it to be a room people remember.
         </p>
 
