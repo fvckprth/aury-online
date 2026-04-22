@@ -5,8 +5,7 @@ function AboutMe() {
       <div>
         <p className="text-xs sm:text-sm tracking-wide font-light">
           10+ Years of Hospitality & Partnerships.<br/>
-          Based in New York City. Currently building Sweet Linda, a cocktail lounge in New York.<br/>
-          I want it to be a room people remember.
+          Based in New York City. Currently building<br/>
         </p>
 
         <p className="text-xs sm:text-sm tracking-wide font-light mt-4">
@@ -89,6 +88,19 @@ function AboutMe() {
           Equinox
         </a>
         , and Citi Bike rides.
+        </p>
+        <p className="text-xs sm:text-sm tracking-wide font-light mt-4">
+        Currently building{" "}
+        <a
+          href="https://sweetlindanyc.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-4 decoration-from-font hover:opacity-25"
+        >
+          Sweet Linda
+        </a>
+        , a cocktail lounge in<br/>
+        Lower Manhattan. I want it to be a room people remember.
         </p>
       </div>
     );
